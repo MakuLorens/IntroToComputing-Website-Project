@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Facebook</title>
+    <link rel="stylesheet" href="profsty.css">
+  </head>
+  <body> 
+    <section id="banner">
+    
+        <img src="pics/mlogo.png" class="logo">
+
+<div class="banner-text">
+  <h1> My Profile</h1>
+  <p>"You were born to be real,not to be perfect"</p>
+
+  <div class="banner-btn">
+    <a href="https://www.google.com/maps/place/Midsayap,+Cotabato/@7.1354913,124.3542044,11z/data=!3m1!4b1!4m6!3m5!1s0x32f89da0923b5b3b:0x7ede29f670638df7!8m2!3d7.133551!4d124.5306837!16zL20vMDZuOXFf?entry=ttu"><span></span> From:Midsayap</a>
+    <a href="https://en.wikipedia.org/wiki/Breathing#:~:text=Breathing%20(spiration%20or%20ventilation)%20is,dioxide%20and%20bring%20in%20oxygen."><span></span> Status:Breathing</a>
+  </div>
+</div>
+    </section>
+
+    <div id="sidenav">
+      <nav>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="profile.html">PROFILE</a></li>
+          <li><a href="hobii.html">HOBBIES</a></li>
+          <li><a href="port.html">HOUSE</a></li>
+          <li><a href="Home.html">MIDSAYAP</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="manubtn">
+      <img src="pics/menu.png" id="menu">
+    </div>
+    <script>
+      var manubtn = document.getElementById("manubtn")
+      var sidenav = document.getElementById("sidenav")
+      var menu = document.getElementById("menu")
+
+      sidenav.style.right = "-250px";
+
+
+manubtn.onclick = function(){
+  if(sidenav.style.right == "-250px"){
+    sidenav.style.right = "0";
+    
+  }
+  else{
+    sidenav.style.right = "-250px";
+
+  }
+}
+
+    </script>
+     <div class="fot">
+      <footer>
+        <p>&copy; 2022 - All Rights Reserved.<br>By accessing this website, you agree to our <a href="tos.html">Terms and Conditions</p>
+      </footer>
+  </div>
+  </body>
+</html>
